@@ -4,11 +4,22 @@ This repo demo how to do simple state update (and trigger re-render) with varies
 
 The example used is simply getting two numbers from input, then display the sum.
 
-## Frameworks / Tools
-- [Svelte](#svelte)
-- [Angular](#angular)
-- [Stencil](#stencil)
-- [React](#react)
+## Comparasion
+
+| Framework / Tool | # Significant Expression* | Required LoC* | Size** of node_modules | Size** of Built File*** |
+|---|--:|--:|--:|--:|
+| [Svelte](#svelte)   | 7  | 19 |  20M |  15.5K |
+| [Angular](#angular) | 7  | 38 | 419M | 199.3K |
+| [Stencil](#stencil) | 11 | 48 |  16M |  21.6K |
+| [React](#react)     | 14 | 32 | 293M | 161.7K |
+
+*: the lower, the better
+
+**: file size are in unit of MiB or KiB
+
+***: excluded *.map files
+
+LoC: line of code
 
 ### Svelte
 - [App.svelte](./svelte-calc/src/App.svelte)
