@@ -9,8 +9,14 @@ The example used is simply getting two numbers from input, then display the sum.
 - [React](#react)
 
 ### Svelte
+<details>
+<summary>
+
 [App.svelte](./svelte-calc/src/App.svelte)
-```sveltehtml
+
+</summary>
+
+```html
 <script>
 	let a = 1
 	let b = 1
@@ -33,8 +39,16 @@ The example used is simply getting two numbers from input, then display the sum.
 </style>
 ```
 
+</details>
+
 ### React
+<details>
+<summary>
+
 [App.tsx](./react-calc/src/App.tsx)
+
+</summary>
+
 ```typescript jsx
 import React, { useEffect, useState } from 'react';
 import './App.css';
@@ -67,9 +81,19 @@ function App() {
 export default App;
 ```
 
+</details>
+
+<details>
+<summary>
+
 [App.css](./react-calc/src/App.css)
+
+</summary>
+
 ```css
 .answer {
   color: green;
 }
 ```
+
+</details>
