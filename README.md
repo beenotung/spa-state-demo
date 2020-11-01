@@ -4,7 +4,7 @@ This repo demo how to do simple state update (and trigger re-render) with varies
 
 The example used is simply getting two numbers from input, then display the sum.
 
-## Frameworks
+## Frameworks / Tools
 - [Svelte](#svelte)
 - [Angular](#angular)
 - [React](#react)
