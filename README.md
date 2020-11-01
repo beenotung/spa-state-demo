@@ -7,6 +7,7 @@ The example used is simply getting two numbers from input, then display the sum.
 ## Frameworks
 - [Svelte](#svelte)
 - [React](#react)
+- [Angular](#angular)
 
 ### Svelte
 <details>
@@ -94,6 +95,95 @@ export default App;
 .answer {
   color: green;
 }
+```
+
+</details>
+
+### Angular
+<details>
+<summary>
+
+[app.component.ts](ng-calc/src/app/app.component.ts)
+
+</summary>
+
+```typescript
+import { Component } from '@angular/core';
+
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  a = 1
+  b = 1
+  get c(){
+    return this.a + this.b
+  }
+}
+```
+
+</details>
+
+<details>
+<summary>
+
+[app.component.html](ng-calc/src/app/app.component.html)
+
+</summary>
+
+```html
+<input type="number" [(ngModel)]="a">
++
+<input type="number" [(ngModel)]="b">
+=
+<span class="answer">{{c}}</span>
+```
+
+</details>
+
+<details>
+<summary>
+
+[app.component.css](ng-calc/src/app/app.component.css)
+
+</summary>
+
+```css
+.answer {
+    color: green;
+}
+```
+
+</details>
+
+<details>
+<summary>
+
+[app.module.ts](ng-calc/src/app/app.module.ts)
+
+</summary>
+
+```typescript
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+
+import { AppComponent } from './app.component';
+
+@NgModule({
+  declarations: [
+    AppComponent
+  ],
+  imports: [
+    BrowserModule,
+    FormsModule,
+  ],
+  providers: [],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }
 ```
 
 </details>
