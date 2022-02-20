@@ -12,6 +12,7 @@ The example used is simply getting two numbers from input, then display the sum.
 | [Angular](#angular) | 7  | 38 | 419M | 199.3K |
 | [Stencil](#stencil) | 11 | 48 |  16M |  21.6K |
 | [React](#react)     | 14 | 32 | 293M | 161.7K |
+| [Vanilla](#vanilla) | 10 | 16 |   0B |   0.3K |
 
 *: the lower, the better
 
@@ -20,6 +21,8 @@ The example used is simply getting two numbers from input, then display the sum.
 ***: excluded *.map files
 
 LoC: line of code
+
+Remark: the vanilla html file is minified with [minify](https://www.npmjs.com/package/minify)
 
 ### Svelte
 - [App.svelte](./svelte-calc/src/App.svelte)
@@ -37,3 +40,6 @@ LoC: line of code
 ### React
 - [App.tsx](./react-calc/src/App.tsx)
 - [App.css](./react-calc/src/App.css)
+
+### Vanilla
+- [index.html](./vanilla-calc/index.html)
