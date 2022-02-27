@@ -9,14 +9,14 @@ The example used is simply getting two numbers from input, then display the sum.
 | Framework / Tool | # Significant Expression* | Required LoC* | Size** of node_modules | Size** of Built File*** |
 |---|--:|--:|--:|--:|
 | [Svelte](#svelte)   | 7  | 19 |  20M |  15.5K |
-| [Angular](#angular) | 7  | 38 | 419M | 199.3K |
+| [Angular](#angular) | 7  | 38 | 240M | 163.9K |
 | [Stencil](#stencil) | 11 | 48 |  16M |  21.6K |
-| [React](#react)     | 14 | 32 | 293M | 161.7K |
+| [React](#react)     | 14 | 32 | 204M | 146.0K |
 | [Vanilla](#vanilla) | 10 | 16 |   0B |   0.3K |
 
 *: the lower, the better
 
-**: file size are in unit of MiB or KiB
+**: file size are in unit of MB or KB (powers of 1024), measured with `du -sh --apparent-size node_modules`
 
 ***: excluded *.map files
 
