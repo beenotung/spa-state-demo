@@ -13,14 +13,17 @@ The example used is simply getting two numbers from input, then display the sum.
 | [Vue](#vue)         | 10 | 43 | 101M |  49.3K |
 | [Stencil](#stencil) | 11 | 48 |  16M |  13.7K |
 | [React](#react)     | 14 | 32 | 205M | 144.6K |
+| [Vanilla](#vanilla) | 10 | 16 |   0B |   0.3K |
 
 *: the lower, the better
 
-**: file size are in unit of MiB or KiB
+**: file size are in unit of MB or KB (powers of 1024), measured with `du -sh --apparent-size node_modules`
 
 ***: excluded *.map files
 
 LoC: line of code
+
+Remark: the vanilla html file is minified with [minify](https://www.npmjs.com/package/minify)
 
 ### Svelte
 - [App.svelte](./svelte-calc/src/App.svelte)
@@ -41,3 +44,6 @@ LoC: line of code
 ### React
 - [App.tsx](./react-calc/src/App.tsx)
 - [App.css](./react-calc/src/App.css)
+
+### Vanilla
+- [index.html](./vanilla-calc/index.html)

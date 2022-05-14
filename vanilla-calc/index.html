@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      .answer {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="number" oninput="updateC()" id="a" value="1" />
+    +
+    <input type="number" oninput="updateC()" id="b" value="1" />
+    =
+    <span class="answer" id="c"></span>
+    <script>
+      function updateC() {
+        c.textContent = a.valueAsNumber + b.valueAsNumber
+      }
+      updateC()
+    </script>
+  </body>
+</html>
