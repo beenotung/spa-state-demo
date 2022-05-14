@@ -10,6 +10,7 @@ The example used is simply getting two numbers from input, then display the sum.
 |---|--:|--:|--:|--:|
 | [Svelte](#svelte)   | 7  | 19 |  20M |  15.5K |
 | [Angular](#angular) | 7  | 38 | 419M | 199.3K |
+| [Vue](#vue)         | 10 | 43 | 101M |  49.3K |
 | [Stencil](#stencil) | 11 | 48 |  16M |  21.6K |
 | [React](#react)     | 14 | 32 | 293M | 161.7K |
 
@@ -29,6 +30,9 @@ LoC: line of code
 - [app.component.html](ng-calc/src/app/app.component.html)
 - [app.component.css](ng-calc/src/app/app.component.css)
 - [app.module.ts](ng-calc/src/app/app.module.ts)
+
+### Vue
+- [App.vue](./vue-calc/src/App.vue)
 
 ### Stencil
 - [my-component.tsx](./stencil-calc/src/components/my-component/my-component.tsx)
