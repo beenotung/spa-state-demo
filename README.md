@@ -8,11 +8,11 @@ The example used is simply getting two numbers from input, then display the sum.
 
 | Framework / Tool | # Significant Expression* | Required LoC* | Size** of node_modules | Size** of Built File*** |
 |---|--:|--:|--:|--:|
-| [Svelte](#svelte)   | 7  | 19 |  20M |  15.5K |
-| [Angular](#angular) | 7  | 38 | 419M | 199.3K |
+| [Svelte](#svelte)   | 7  | 19 |  22M |  17.4K |
+| [Angular](#angular) | 7  | 38 | 242M | 155.8K |
 | [Vue](#vue)         | 10 | 43 | 101M |  49.3K |
-| [Stencil](#stencil) | 11 | 48 |  16M |  21.6K |
-| [React](#react)     | 14 | 32 | 293M | 161.7K |
+| [Stencil](#stencil) | 11 | 48 |  16M |  13.7K |
+| [React](#react)     | 14 | 32 | 205M | 144.6K |
 
 *: the lower, the better
 

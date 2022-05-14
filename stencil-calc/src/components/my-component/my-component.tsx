@@ -27,7 +27,7 @@ export class MyComponent {
   render() {
     return (
       <Block>
-        <input 
+        <input
           type="number"
           value={this.a}
           onInput={e => (this.a = (e.target as HTMLInputElement).valueAsNumber)}
